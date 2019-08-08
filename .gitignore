@@ -1,9 +1,3 @@
-gulp/assets/*
-sidecar/tests/*
-sidecar/tests/
-custom/modules/PTX_items_sol_cot/*
-custom/modules/PTX_items_sol_cot/
-ess
 /Ext/
 HandleAjaxCall.php
 LICENSE
@@ -19,7 +13,6 @@ acceptDecline.php
 campaign_tracker.php
 campaign_trackerv2.php
 /clients/
-composer.json
 composer.lock
 config.php
 config_override.php
@@ -47,6 +40,8 @@ maintenance.php
 metagen.php
 mobile.php
 mobile/
+!tests/{old}/custom/modules/Accounts/clients/mobile/
+!custom/modules/Accounts/clients/mobile/
 /modules/
 nohup.out
 oc_convert.php
@@ -55,7 +50,6 @@ pdf.php
 php_errors.log
 process_queue.php
 process_workflow.php
-qsdev_761.merxbp.com-20160816.sql
 removeme.php
 robots.txt
 run_job.php
@@ -64,7 +58,6 @@ run_job.php
 !/sidecar/tests
 /portal2/*
 !/portal2/tests
-
 silentFTSIndex.php
 soap.php
 /soap/
@@ -138,16 +131,13 @@ zh_TW.lang.ext.php
 /custom/application/Ext/Include/modules.ext.php
 /custom/Extension/application/Ext/TableDictionary/*.php
 /custom/Extension/application/Ext/Language/*.php
-!/custom/Extension/application/Ext/Language/es_LA*.php
+!/custom/Extension/application/Ext/Language/en_us*.php
 /custom/Extension/application/Ext/Include/*.php
 /custom/Extension/modules/*/Ext/Language/*.php
-!/custom/Extension/modules/*/Ext/Language/es_LA*.php
+!/custom/Extension/modules/*/Ext/Language/en_us*.php
 /clover.xml/
 /index.xml
 /log.xml
-/tests/karma/
-/tests/log.xml
-/tests/phpunit-log.xml
 /custom/modulebuilder/
 /custom/modules/*/logic_hooks.php
 !repair.php
@@ -172,8 +162,11 @@ stock-parent-calls.json
 /custom/application/Ext/JSGroupings/*.ext.php
 /custom/modules/Administration/Ext/Administration/*.ext.php
 /custom/modules/*/Ext/Dependencies/*.ext.php
-/gulp/
 tsconfig.json
 tslint.json
 yarn.lock
+custom/application/Ext/ScheduledTasks/scheduledtasks.ext.php
+custom/application/Ext/EntryPointRegistry/*.ext.php
+/etc/
 /dist/
+.directory
